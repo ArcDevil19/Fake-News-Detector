@@ -41,7 +41,7 @@ st.markdown("""
 
   .result-banner { padding:24px 28px; border-radius:14px; margin:18px 0; text-align:center; }
   .result-banner h2 { margin:0 0 6px; font-size:2rem; }
-  .result-banner p  { margin:0; font-size:1rem; opacity:.85; }
+  .result-banner p  { margin:0; font-size:1rem; color:#222222; opacity:1; font-weight:600 }
   .real-banner { background:#d4f5e2; border:2px solid #27ae60; }
   .real-banner h2 { color:#155724; }
   .fake-banner { background:#fde8e8; border:2px solid #e74c3c; }
@@ -51,8 +51,8 @@ st.markdown("""
   .pill { flex:1; padding:14px; border-radius:10px; text-align:center; }
   .pill-real { background:#d4f5e2; }
   .pill-fake { background:#fde8e8; }
-  .pill-val  { font-size:1.8rem; font-weight:700; }
-  .pill-lbl  { font-size:.75rem; color:#555; margin-top:2px; }
+  .pill-val  { font-size:1.8rem; font-weight:700; color:#111111}
+  .pill-lbl  { font-size:.75rem; color:#222222; margin-top:2px; }
 
   .gauge-wrap  { display:flex; align-items:center; gap:14px; margin:18px 0; }
   .gauge-bar   { flex:1; height:22px; border-radius:11px; background:#f0f0f0; overflow:hidden; }

@@ -20,7 +20,7 @@ fake_news_detector/
 │   ├── wordclouds.png
 │   └── random_forest_evaluation.png
 ├── fake_news_detector.py ← ML pipeline (train + evaluate)
-├── app.py                ← Streamlit demo app
+├── detector.py                ← Streamlit demo app
 ├── requirements.txt
 └── README.md
 ```
@@ -58,7 +58,7 @@ This will:
 
 ### 4 — Launch the demo app
 ```bash
-streamlit run app.py
+streamlit run detector.py
 ```
 Open http://localhost:8501 in your browser.
 

@@ -171,3 +171,7 @@ svc = LinearSVC(class_weight="balanced").fit(X_train_v, y_train)
 3. **Domain shift** — performance degrades on social-media posts or non-English text.
 4. **Not a fact-checker** — always verify with Reuters, AP News, or Snopes.
 5. **Dual use** — understanding how fake news is detected also reveals how to evade detection.
+
+Author
+Ankita Dey(AIML-A6/May-9814)
+Developed as an AI/ML Minor Project — AI InternsElite May2026
